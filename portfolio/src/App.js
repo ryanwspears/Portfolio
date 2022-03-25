@@ -15,13 +15,13 @@ function App() {
           <h3 className="green">Contact</h3>
         </header>
       </div>
-      <body className="body">
+      <div className="div">
         <div className="top">
-        <section class="mast">
-            <header class="mast__header">
-              <h1 class="mast__title js-spanize">Incoming Transmission</h1> 
-              <hr class="sep"/>
-              <p class="mast__text js-spanize">
+        <section className="mast">
+            <header className="mast__header">
+              <h1 className="mast__title js-spanize green">Incoming Transmission</h1> 
+              <hr className="sep"/>
+              <p className="mast__text js-spanize green">
                 This is a story, all about how, 
                 My life got twisted upside down. 
                 So I'd like to tell a story, just sit right there. 
@@ -30,7 +30,7 @@ function App() {
             </header>
           </section>
         </div>
-      </body>
+      </div>
     </div>
   );
 }
