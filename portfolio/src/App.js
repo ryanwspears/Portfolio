@@ -17,15 +17,16 @@ function App() {
       </div>
       <div className="div">
         <div className="top">
-        <section className="mast">
+          <canvas id="c"></canvas>
+          <section className="mast">
             <header className="mast__header">
-              <h1 className="mast__title js-spanize green">Incoming Transmission</h1> 
+              <h1 className="mast__title js-spanize green" id="mastHead">&gt;&gt;&gt; Welcome to my portfolio...</h1>
               <hr className="sep"/>
-              <p className="mast__text js-spanize green">
-                This is a story, all about how, 
-                My life got twisted upside down. 
-                So I'd like to tell a story, just sit right there. 
-                And I'll tell you how I became the prince of Bel Air.
+              <p className="mast__text js-spanize green" id="mastLine1">
+                &gt;&gt;&gt; Here you can read all about me, and my experience as a software developer.
+              </p>
+              <p className="mast__text js-spanize green" id="mastLine2">
+                &gt;&gt;&gt; To dive into my life, try clicking one of the options in the menu above.
               </p>
             </header>
           </section>
