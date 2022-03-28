@@ -20,14 +20,18 @@ function App() {
           <canvas id="c"></canvas>
           <section className="mast">
             <header className="mast__header">
-              <h1 className="mast__title js-spanize green" id="mastHead">&gt;&gt;&gt; Welcome to my portfolio...</h1>
-              <hr className="sep"/>
-              <p className="mast__text js-spanize green" id="mastLine1">
-                &gt;&gt;&gt; Here you can read all about me, and my experience as a software developer.
-              </p>
-              <p className="mast__text js-spanize green" id="mastLine2">
-                &gt;&gt;&gt; To dive into my life, try clicking one of the options in the menu above.
-              </p>
+              <pre id="typewriter" className='green'>
+                <span className="green">Enter Password: </span>
+                <span className="blue">**************</span>
+                <p className="codeGreen">Success!</p>
+                <span class="gold">var </span>greeting =
+                <span class="blue"> 'Welcome to my portfolio.'</span>
+                <span>;</span>
+                <p className="codeGreen"></p>
+                <span class="gold">var </span>toDo =
+                <span class="blue"> 'To learn more about me, click one of the options in the menu above.'</span>
+                <span>;</span>
+              </pre>
             </header>
           </section>
         </div>
