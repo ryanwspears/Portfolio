@@ -17,6 +17,18 @@ body::-webkit-scrollbar {
   background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
 
+.headMain {
+  z-index: 5;
+}
+
+canvas { 
+  position: absolute; 
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.2;
+}
+
 @media screen and (min-width: 1080px) {
   .App {
     text-align: center;
@@ -100,7 +112,7 @@ body::-webkit-scrollbar {
   }
   
   .blue {
-    color: #d1ede5;
+    color: #1E90FF;
   }
   
   .body {
@@ -300,6 +312,28 @@ body::-webkit-scrollbar {
   animation: glitch 1s linear infinite;
 }
 
+#mastHead {
+  border-right: 2px solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 4s steps(70) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+#mastLine1 {
+  border-right: 2px solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter2 4s steps(70) 1s 1 normal both,
+             blinkTextCursor2 500ms steps(44) infinite normal;
+}
+#mastLine2 {
+  border-right: 2px solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter3 4s steps(70) 1s 1 normal both,
+             blinkTextCursor3 500ms steps(44) infinite normal;
+}
+
 @keyframes glitch{
   2%,64%{
     transform: translate(2px,0) skew(0deg);
@@ -353,4 +387,31 @@ body::-webkit-scrollbar {
   62%{
     transform: translate(-22px,5px) skew(21deg); 
   }
+}
+
+@keyframes typewriter{
+  0%{width: 0;}
+  100%{width: 25.5%;}
+}
+@keyframes blinkTextCursor{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@keyframes typewriter2{
+  from{width: 0;}
+  to{width: 44.5%;}
+}
+@keyframes blinkTextCursor2{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
+}
+
+@keyframes typewriter3{
+  from{width: 0;}
+  to{width: 43.3%;}
+}
+@keyframes blinkTextCursor3{
+  from{border-right-color: rgba(255,255,255,.75);}
+  to{border-right-color: transparent;}
 }
