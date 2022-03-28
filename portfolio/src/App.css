@@ -114,6 +114,14 @@ canvas {
   .blue {
     color: #1E90FF;
   }
+
+  .codeGreen {
+    color: #00FF00;
+  }
+
+  .gold {
+    color: #C0AD60;
+  }
   
   .body {
     background-color: #282c34;
@@ -313,6 +321,7 @@ canvas {
 }
 
 #mastHead {
+  font-size: 2rem;
   border-right: 2px solid rgba(255,255,255,.75);
   white-space: nowrap;
   overflow: hidden;
@@ -320,18 +329,14 @@ canvas {
              blinkTextCursor 500ms steps(44) infinite normal;
 }
 #mastLine1 {
-  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 1rem;
   white-space: nowrap;
   overflow: hidden;
-  animation: typewriter2 4s steps(70) 1s 1 normal both,
-             blinkTextCursor2 500ms steps(44) infinite normal;
 }
 #mastLine2 {
-  border-right: 2px solid rgba(255,255,255,.75);
+  font-size: 1rem;
   white-space: nowrap;
   overflow: hidden;
-  animation: typewriter3 4s steps(70) 1s 1 normal both,
-             blinkTextCursor3 500ms steps(44) infinite normal;
 }
 
 @keyframes glitch{
@@ -389,29 +394,35 @@ canvas {
   }
 }
 
-@keyframes typewriter{
-  0%{width: 0;}
-  100%{width: 25.5%;}
+.var-highlight{
+  color: #C0AD60;
 }
-@keyframes blinkTextCursor{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+.string-highlight{
+  color: rgba(253, 149, 90, 0.8);
 }
 
-@keyframes typewriter2{
-  from{width: 0;}
-  to{width: 44.5%;}
-}
-@keyframes blinkTextCursor2{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+#typewriter{
+    font-size: 2em;
+    margin: 0;
+    font-family: "Courier New";
+
+    &:after{
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
 }
 
-@keyframes typewriter3{
-  from{width: 0;}
-  to{width: 43.3%;}
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
-@keyframes blinkTextCursor3{
-  from{border-right-color: rgba(255,255,255,.75);}
-  to{border-right-color: transparent;}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
