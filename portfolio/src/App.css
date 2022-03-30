@@ -29,9 +29,26 @@ canvas {
   opacity: 0.2;
 }
 
+.green {
+  color: #d1ede5;
+}
+
+.blue {
+  color: #1E90FF;
+}
+
+.codeGreen {
+  color: #00FF00;
+}
+
+.gold {
+  color: #C0AD60;
+}
+
 @media screen and (min-width: 1080px) {
   .App {
     text-align: center;
+    font-size: 2rem;
   }
   
   .headMain {
@@ -55,6 +72,8 @@ canvas {
 
   .mast {
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .App-header {
@@ -107,22 +126,6 @@ canvas {
     color: #1E90FF;
   }
   
-  .green {
-    color: #d1ede5;
-  }
-  
-  .blue {
-    color: #1E90FF;
-  }
-
-  .codeGreen {
-    color: #00FF00;
-  }
-
-  .gold {
-    color: #C0AD60;
-  }
-  
   .body {
     background-color: #282c34;
     min-height: auto;
@@ -139,6 +142,7 @@ canvas {
 @media screen and (max-width: 1080px) and (min-width: 620px) {
   .App {
     text-align: center;
+    font-size: 1.5rem;
   }
   
   .headMain {
@@ -152,7 +156,7 @@ canvas {
     background-image: url('../public/topImage.jpg');
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
     background-size: cover;
-    height: 84vh;
+    height: 100vh;
     width: 100%;
     z-index: 10;
     display: flex;
@@ -228,10 +232,12 @@ canvas {
 @media screen and (max-width: 620px) {
   .App {
     text-align: center;
+    font-size: 1rem;
   }
   
   .headMain {
    display: flex;
+   flex-wrap: wrap;
    posistion: fixed;
    flex-direction: column;
    width: 100%
@@ -241,12 +247,40 @@ canvas {
     background-image: url('../public/topImage.jpg');
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
     background-size: cover;
-    height: 84vh;
+    height: 100vh;
     width: 100%;
     z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .mast {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .mast__header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  #typewriter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
   }
   
   .App-header {
@@ -394,18 +428,7 @@ canvas {
   }
 }
 
-.var-highlight{
-  color: #C0AD60;
-}
-.string-highlight{
-  color: rgba(253, 149, 90, 0.8);
-}
-
 #typewriter{
-    font-size: 2em;
-    margin: 0;
-    font-family: "Courier New";
-
     &:after{
       content: "|";
       animation: blink 500ms linear infinite alternate;
