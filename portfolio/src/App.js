@@ -5,14 +5,14 @@ function App() {
     <div className="App">
       <div className='headMain'>
         <header className="App-header">
-          <h1>Ryan Spears</h1>
-          <h2>Software Developer</h2>
+          <h1>ryan spears</h1>
+          <h2>software developer</h2>
         </header>
         <header className="App-header2">
-          <h3 className="green">About</h3>
-          <h3 className="green">Projects</h3>
-          <h3 className="green">Resume</h3>
-          <h3 className="green">Contact</h3>
+          <h3 className="green">about</h3>
+          <h3 className="green">projects</h3>
+          <h3 className="green">resume</h3>
+          <h3 className="green">contact</h3>
         </header>
       </div>
       <div className="div">
@@ -24,12 +24,12 @@ function App() {
                 <span className="green">Enter Password: </span>
                 <span className="blue">**************</span>
                 <p className="codeGreen">Success!</p>
-                <span class="gold">var </span>greeting =
-                <span class="blue"> 'Welcome to my portfolio.'</span>
+                <span className="gold">var </span>greeting =
+                <span className="blue"> 'Welcome to my portfolio.'</span>
                 <span>;</span>
                 <p className="codeGreen"></p>
-                <span class="gold">var </span>toDo =
-                <span class="blue"> 'To learn more about me, click one of the options in the menu above.'</span>
+                <span className="gold">var </span>toDo =
+                <span className="blue"> 'To learn more about me, click one of the options in the menu above.'</span>
                 <span>;</span>
               </pre>
             </header>
