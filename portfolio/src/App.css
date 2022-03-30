@@ -17,9 +17,38 @@ body::-webkit-scrollbar {
   background: transparent; /* Disable scrollbar Chrome/Safari/Webkit */
 }
 
+.headMain {
+  z-index: 5;
+}
+
+canvas { 
+  position: absolute; 
+  z-index: 0;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.2;
+}
+
+.green {
+  color: #d1ede5;
+}
+
+.blue {
+  color: #1E90FF;
+}
+
+.codeGreen {
+  color: #00FF00;
+}
+
+.gold {
+  color: #C0AD60;
+}
+
 @media screen and (min-width: 1080px) {
   .App {
     text-align: center;
+    font-size: 2rem;
   }
   
   .headMain {
@@ -43,6 +72,8 @@ body::-webkit-scrollbar {
 
   .mast {
     width: 90%;
+    display: flex;
+    flex-wrap: wrap;
   }
   
   .App-header {
@@ -95,14 +126,6 @@ body::-webkit-scrollbar {
     color: #1E90FF;
   }
   
-  .green {
-    color: #d1ede5;
-  }
-  
-  .blue {
-    color: #d1ede5;
-  }
-  
   .body {
     background-color: #282c34;
     min-height: auto;
@@ -119,6 +142,7 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 1080px) and (min-width: 620px) {
   .App {
     text-align: center;
+    font-size: 1.5rem;
   }
   
   .headMain {
@@ -132,7 +156,7 @@ body::-webkit-scrollbar {
     background-image: url('../public/topImage.jpg');
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
     background-size: cover;
-    height: 84vh;
+    height: 100vh;
     width: 100%;
     z-index: 10;
     display: flex;
@@ -208,10 +232,12 @@ body::-webkit-scrollbar {
 @media screen and (max-width: 620px) {
   .App {
     text-align: center;
+    font-size: 1rem;
   }
   
   .headMain {
    display: flex;
+   flex-wrap: wrap;
    posistion: fixed;
    flex-direction: column;
    width: 100%
@@ -221,12 +247,40 @@ body::-webkit-scrollbar {
     background-image: url('../public/topImage.jpg');
     box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.8);
     background-size: cover;
-    height: 84vh;
+    height: 100vh;
     width: 100%;
     z-index: 10;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .mast {
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  .mast__header {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+  }
+
+  #typewriter {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
   }
   
   .App-header {
@@ -300,6 +354,25 @@ body::-webkit-scrollbar {
   animation: glitch 1s linear infinite;
 }
 
+#mastHead {
+  font-size: 2rem;
+  border-right: 2px solid rgba(255,255,255,.75);
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typewriter 4s steps(70) 1s 1 normal both,
+             blinkTextCursor 500ms steps(44) infinite normal;
+}
+#mastLine1 {
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+#mastLine2 {
+  font-size: 1rem;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
 @keyframes glitch{
   2%,64%{
     transform: translate(2px,0) skew(0deg);
@@ -353,4 +426,26 @@ body::-webkit-scrollbar {
   62%{
     transform: translate(-22px,5px) skew(21deg); 
   }
+}
+
+#typewriter{
+    &:after{
+      content: "|";
+      animation: blink 500ms linear infinite alternate;
+    }
+}
+
+@-webkit-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
+}
+
+@keyframes blink{
+  0%{opacity: 0;}
+  100%{opacity: 1;}
 }
