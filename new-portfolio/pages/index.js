@@ -6,7 +6,7 @@ export default function Home() {
     <div className={homeStyles.main}>
       <Head>
         <title>Ryan Spears - Home</title>
-        <meta name='Liquid Creative Website'></meta>
+        <meta name={'Liquid Creative Website'}></meta>
       </Head>
       <h1>It seems you've stumbled upon my portfolio...</h1>
       <h2>My name is Ryan Spears, and I'm a Software Developer from Jackson, MS.</h2>
