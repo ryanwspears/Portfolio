@@ -10,7 +10,7 @@ const contact = () => {
         </Head>
         <h2>Need to get in touch with me?</h2>
         <h3>Fill out the form below, and I'll get back with you.</h3>
-        <form className={contactStyles.form} action='https://formspree.io/f/mlezzjqe' method='POST'>
+        <form className={contactStyles.form} action={'https://formspree.io/f/mlezzjqe'} method={'POST'}>
           <input type='text' name='name' placeholder='Name' />
           <input type='email' name='email' placeholder='Email' />
           <input type='tel' name='phone' placeholder='Phone Number' />
