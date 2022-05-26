@@ -8,6 +8,33 @@
     flex-direction: column;
 }
 
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    background-color: #9CE6CF;
+    padding: 0.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.social a {
+    line-height: 0;
+}
+
 .form {
     display: flex;
     justify-content: center;
