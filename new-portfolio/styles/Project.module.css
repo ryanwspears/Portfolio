@@ -1,0 +1,27 @@
+.main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    width: 80vw;
+}
+
+.projectCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 45%;
+    height: auto;
+    background-color: #9CE6CF;
+    color: #121212;
+    margin: 1rem;
+}
+
+@media screen and (max-width: 1200px) {
+    .projectCard {
+        width: 95%;
+    }
+}

@@ -1,5 +1,6 @@
 import React from 'react'
 import Head from 'next/head'
+import projectStyles from '../styles/Project.module.css'
 
 const projects = () => {
   return (
@@ -7,7 +8,17 @@ const projects = () => {
         <Head>
             <title>Ryan Spears - Projects</title>
         </Head>
-        <h1>Projects</h1>
+        <div className={projectStyles.main}>
+          <div className={projectStyles.projectCard}>
+            <h3>Project 1</h3>
+          </div>
+          <div className={projectStyles.projectCard}>
+            <h3>Project 1</h3>
+          </div>
+          <div className={projectStyles.projectCard}>
+            <h3>Project 1</h3>
+          </div>
+        </div>
     </div>
   )
 }
