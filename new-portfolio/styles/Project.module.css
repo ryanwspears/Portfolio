@@ -2,7 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
     text-align: center;
     flex-direction: row;
     width: 80vw;
@@ -10,6 +10,7 @@
 
 .projectCard {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -20,8 +21,23 @@
     margin: 1rem;
 }
 
+.cardBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #121212;
+    width: 100%;
+    color: #fff;
+    padding: 0.5rem;
+}
+
 @media screen and (max-width: 1200px) {
     .projectCard {
         width: 95%;
     }
+}
+
+.link {
+    color: #9CE6CF;
 }
