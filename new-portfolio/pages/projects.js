@@ -54,7 +54,7 @@ const projects = () => {
               <p>My task for this project was to create a website that could allow a user to create items for a database, and allow them to edit or delete said items from the database. The user should also have the ability to view each item that has been inserted into the table. Along with that, I was assigned to implement an aAPI. I chose an API that would allow users to search for any anime title they wanted, and displyed their search results. The user could click on whichever search result they wanted and was directed to that results page on My Anime List. I also used Beautiful Soup to datascrape the My Anime List News section to display the lastest anime news to the user.</p>
               <h4>Technologies:</h4>
               <p>HTML, CSS, JS, Pyhton, Django, PyCharm, Beautiful Soup, REST API</p>
-              <p>To read more about what I on this project, <a className={projectStyles.link} href={'https://github.com/ryanwspears/PythonLiveProject'} target={'_blank'}>click here.</a></p>
+              <p>To read more about what I on this project, <a className={projectStyles.link} href={'https://github.com/ryanwspears/PythonLiveProject'} target={'_blank'} rel={"noreferrer"}>click here.</a></p>
             </div>
           </div>
           <div className={projectStyles.projectCard}>
@@ -64,7 +64,7 @@ const projects = () => {
               <p>My task for this project was to work alongside my fellow classmates to build a website for a Theater in Portland, OR. I was tasked with designing aand implementing a number of features. The first task was to style the Home Page per the clients request. This was done using simple HTML and CSS. Next, I was to create an entity model for calendar events that could be scheduled, and create the CRUD pages for it. Entity Framework made this a very simple task. After that, I had to link the calendar events to the production class. This was accomplished with a one-to-many relationship between the two classes where one production can have many calendar events. Then I was tasked with redesigning and styling the rental requests page. The previous design had the data displayed in a simple table. My job was to have the data display in an accordion. This one was a bit of a challenge, but was eventually overcome by some quick research. Lastly, I had to implement a way to only show current rental requests until the user clicked a button to show the expired requests. I had a tough time with this one, but like any other challenge it was quickly overcome. The solution was just a matter of using jQuery to handle the button function.</p>
               <h4>Technologies:</h4>
               <p>HTML, CSS, JS, C#, jQuery, SQLite</p>
-              <p>To read more about what I on this project, <a className={projectStyles.link} href={'https://github.com/ryanwspears/C_SharpLiveProject'} target={'_blank'}>click here.</a></p>
+              <p>To read more about what I on this project, <a className={projectStyles.link} href={'https://github.com/ryanwspears/C_SharpLiveProject'} target={'_blank'} rel={"noreferrer"}>click here.</a></p>
             </div>
           </div>
         </div>
