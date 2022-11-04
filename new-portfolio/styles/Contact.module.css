@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Mono:400');
+
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.box2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 15%;
+    background-color: #9CE6CF;
+    padding: 0.5rem;
+    border-radius: 25px;
+    cursor: pointer;
+    margin: 1rem;
+}
+
+.social a {
+    line-height: 0;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+.form input {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-family: Fira Mono, sans-serif;
+}
+
+.form textarea {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+    padding: 0.5rem;
+    font-family: Fira Mono, sans-serif;
+    height: 122px;
+}
+
+.form button {
+    width: 20rem;
+    height: 2rem;
+    border-radius: 10px;
+    border: none;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    font-family: Fira Mono, sans-serif;
+    background-color: #9CE6CF;
+    color: #121212;
+}
