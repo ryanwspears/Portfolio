@@ -17,7 +17,7 @@ const projects = () => {
 						<Image src={'/gti.png'} alt={'gti'} width={'500'} height={'250'} />
 						<p></p>
 						<h4>Technologies:</h4>
-						<p>HTML, CSS, JS, React/Next, Strapi CMS, PostgreSQL, DigitalOcean App Platform</p>
+						<p>HTML, CSS, JS, React/Next.js, Strapi CMS, PostgreSQL, DigitalOcean App Platform</p>
 						<p>
 							View live site{' '}
 							<a className={projectStyles.link} href={'https://gti-9r5c7.ondigitalocean.app/'} target={'_blank'} rel={'noreferrer'}>
@@ -47,7 +47,7 @@ const projects = () => {
 						<Image src={'/burle.png'} alt={'burle'} width={'500'} height={'250'} />
 						<p>This was the first site that was built using the new tech stack that I was able to implement for the Web Department. This was site was challenging to complete due to having to learn how to use Next.js while also keeping up with target deadlines.</p>
 						<h4>Technologies:</h4>
-						<p>HTML, CSS, JS, React/Next, Strapi CMS, PostgreSQL, DigitalOcean App Platform</p>
+						<p>HTML, CSS, JS, React/Next.js, Strapi CMS, PostgreSQL, DigitalOcean App Platform</p>
 						<p>
 							View live site{' '}
 							<a className={projectStyles.link} href={'https://burle-engineers-c5r38.ondigitalocean.app/'} target={'_blank'} rel={'noreferrer'}>
@@ -62,7 +62,7 @@ const projects = () => {
 						<Image src={'/adcock.png'} alt={'adcock'} width={'500'} height={'250'} />
 						<p></p>
 						<h4>Technologies:</h4>
-						<p>HTML, CSS, JS, React/Next, Strapi CMS, PostgreSQL, DigitalOcean App Platform</p>
+						<p>HTML, CSS, JS, React/Next.js, Strapi CMS, PostgreSQL, DigitalOcean App Platform</p>
 						<p>
 							View live site{' '}
 							<a className={projectStyles.link} href={'https://adcock-and-ivison-uunx5.ondigitalocean.app/'} target={'_blank'} rel={'noreferrer'}>
@@ -77,7 +77,7 @@ const projects = () => {
 						<Image src={'/aiga.png'} alt={'aiga'} width={'500'} height={'250'} />
 						<p></p>
 						<h4>Technologies:</h4>
-						<p>HTML, CSS, JS, React/Next, Strapi CMS, PostgreSQL, DigitalOcean App Platform</p>
+						<p>HTML, CSS, JS, React/Next.js, Strapi CMS, PostgreSQL, DigitalOcean App Platform</p>
 						<p>
 							View live site{' '}
 							<a className={projectStyles.link} href={'https://alaiga.com/'} target={'_blank'} rel={'noreferrer'}>
