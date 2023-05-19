@@ -5,10 +5,16 @@ backend:
 media_folder: "public/uploads" # Media files will be stored in the repo under public/uploads
 public_folder: "/uploads"
 
+editor:
+  preview: false
+
 collections:
   - name: "projects"
+    title: "projects" 
     label: "Projects"
     folder: "content/projects"
+    format: "yml"
+    extension: "yml"
     create: true
     slug: {{slug}}
     fields:
