@@ -13,8 +13,8 @@ collections:
     title: "projects" 
     label: "Projects"
     folder: "public/content/projects"
-    format: "yml"
-    extension: "yml"
+    format: "json"
+    extension: "json"
     create: true
     slug: "{{slug}}"
     fields:
