@@ -5,13 +5,14 @@ backend:
 publish_mode: editorial_workflow
 
 media_folder: "public/uploads" # Media files will be stored in the repo under public/uploads
+public_folder: "/uploads"
 
 collections:
   - name: "projects"
     label: "Projects"
-    folder: "public/projects"
+    folder: "content/projects"
     create: true
-    slug: {{name}}
+    slug: {{slug}}
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
       - {label: "Name", name: "name", widget: "string"}
