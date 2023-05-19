@@ -16,7 +16,7 @@ collections:
     format: "yml"
     extension: "yml"
     create: true
-    slug: {{slug}}
+    slug: "{{slug}}"
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
       - {label: "Name", name: "name", widget: "string"}
