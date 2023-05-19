@@ -1,0 +1,8 @@
+---
+layout: project
+name: "Test Project"
+cover_image: "/uploads/login.png"
+description: "Test project for CMS test"
+tech: "Nothing to show here"
+link: "https://google.com/"
+---
