@@ -7,8 +7,7 @@ export default function Home() {
 		<div className={homeStyles.main}>
 			<Head>
 				<title>Ryan Spears - Home</title>
-				<meta name={'Liquid Creative Website'}></meta>
-				<script src='https://identity.netlify.com/v1/netlify-identity-widget.js'></script>
+				<meta name={'Ryan Spears Portfolio Site'}></meta>
 			</Head>
 			<div className={homeStyles.text}>
 				<Typist>
