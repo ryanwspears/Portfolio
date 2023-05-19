@@ -8,7 +8,7 @@ media_folder: "public/uploads" # Media files will be stored in the repo under pu
 
 collections:
   - name: "projects"
-    label: "Project"
+    label: "Projects"
     folder: "public/projects"
     create: true
     slug: {{name}}
