@@ -17,6 +17,7 @@ collections:
     extension: "yml"
     create: true
     slug: "{{slug}}"
+    identifier_field: name
     fields:
       - {label: "Layout", name: "layout", widget: "hidden", default: "project"}
       - {label: "Name", name: "name", widget: "string"}
