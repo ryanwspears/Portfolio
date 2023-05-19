@@ -12,7 +12,7 @@ collections:
   - name: "projects"
     title: "projects" 
     label: "Projects"
-    folder: "content/projects"
+    folder: "public/content/projects"
     format: "yml"
     extension: "yml"
     create: true
