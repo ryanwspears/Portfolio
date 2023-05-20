@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "Rainwater Observatory",
+  "cover_image": "/uploads/rainwater.png",
+  "description": "This site was initially built by a former developer, but was redesigned. I had to implement the new designs onto the site. These changes included an animated test header that faded in over the rotating banner, changing out the oval SVGs with rectangular containers to make the site look cleaner, adding animations to the stars to make them twinkle, and adding more pages.",
+  "tech": "HTML, CSS, JS, PHP, jQuery, MySQL, OctoberCMS",
+  "link": "https://rainwaterobservatory.org/"
+}
