@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "Global Training Institute",
+  "cover_image": "/uploads/gti.png",
+  "description": "Website for GTI's course information, booking details, and Learning Management System.",
+  "tech": "HTML, CSS, JS, React/Next.js, Strapi CMS, PostgreSQL, DigitalOcean App Platform",
+  "link": "https://gti-9r5c7.ondigitalocean.app/"
+}
