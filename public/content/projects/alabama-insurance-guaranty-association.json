@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "Alabama Insurance Guaranty Association",
+  "cover_image": "/uploads/aiga.png",
+  "description": "Website for AIGA",
+  "tech": "HTML, CSS, JS, React/Next.js, Strapi CMS, PostgreSQL, DigitalOcean App Platform",
+  "link": "https://alaiga.com/"
+}
