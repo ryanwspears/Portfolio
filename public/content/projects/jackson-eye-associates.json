@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "Jackson Eye Associates",
+  "cover_image": "/uploads/jea.png",
+  "description": "I was tasked with rebuilding a new website for Jackson eye Associates in Jackson, MS. This site was built using a LAMP stack. The process of rebuilding from the design I was given took only 3 weeks to complete.",
+  "tech": "HTML, CSS, JS, PHP, jQuery, MySQL, WinterCMS",
+  "link": "https://jacksoneye.com/"
+}
