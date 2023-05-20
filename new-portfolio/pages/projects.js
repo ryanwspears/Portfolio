@@ -4,7 +4,7 @@ import projectStyles from '../styles/Project.module.css'
 import Image from 'next/image'
 import { useEffect, useState } from 'react'
 
-const projects = () => {
+const Projects = () => {
 	const [projects, setProjects] = useState(null)
 	const [loading, setLoading] = useState(true)
 
@@ -55,4 +55,4 @@ const projects = () => {
 	)
 }
 
-export default projects
+export default Projects
