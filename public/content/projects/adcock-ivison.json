@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "Adcock & Ivison",
+  "cover_image": "/uploads/adcock.png",
+  "description": "Website for the Adcock & Ivison lawyers.",
+  "tech": "HTML, CSS, JS, React/Next.js, Strapi CMS, PostgreSQL, DigitalOcean App Platform",
+  "link": "https://adcock-and-ivison-uunx5.ondigitalocean.app/"
+}
