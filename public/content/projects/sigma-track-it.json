@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "SIGMA Track It",
+  "cover_image": "/uploads/sigma.png",
+  "description": "My job for this client was to set up Daily, Weekly, and Monthly reports for their machines and email those reports to users who were subscribed to them. The above code is how the Daily report is generated and mailed out.",
+  "tech": "HTML, CSS, JS, PHP, Laravel, MySQL, OctoberCMS",
+  "link": "https://sigmatrackit.com/"
+}
