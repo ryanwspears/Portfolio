@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "Nucor General Recycling",
+  "cover_image": "/uploads/nucor.png",
+  "description": "Website for Nucor",
+  "tech": "HTML, CSS, JS, PHP, jQuery, MySQL, WinterCMS",
+  "link": "https://nucor.liquidcreative.net/"
+}
