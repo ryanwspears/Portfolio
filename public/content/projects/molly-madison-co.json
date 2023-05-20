@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "Molly Madison Co.",
+  "cover_image": "/uploads/molly.png",
+  "description": "E-Commerce site for Molly Madison products.",
+  "tech": "HTML, CSS, JS, Custom Liquid, Shopify",
+  "link": "https://mollymadisonco.com/"
+}
