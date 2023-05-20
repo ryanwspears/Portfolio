@@ -1,0 +1,8 @@
+{
+  "layout": "project",
+  "title": "W. L. Burle Engineers",
+  "cover_image": "/uploads/burle.png",
+  "description": "This was the first site that was built using the new tech stack that I was able to implement for the Web Department. This was site was challenging to complete due to having to learn how to use Next.js while also keeping up with target deadlines.",
+  "tech": "HTML, CSS, JS, React/Next.js, Strapi CMS, PostgreSQL, DigitalOcean App Platform",
+  "link": "https://burle-engineers-c5r38.ondigitalocean.app/"
+}
