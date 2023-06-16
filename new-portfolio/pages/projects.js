@@ -4,7 +4,7 @@ import projectStyles from "../styles/Project.module.css";
 import Image from "next/image";
 const contentful = require("contentful");
 
-const projects = () => {
+const Projects = () => {
   const [projs, setProjs] = useState();
   const [loading, setLoading] = useState(true);
 
@@ -74,4 +74,4 @@ const projects = () => {
   );
 };
 
-export default projects;
+export default Projects;
